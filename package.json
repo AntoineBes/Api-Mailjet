@@ -1,0 +1,23 @@
+{
+  "name": "api-mailjet",
+  "version": "0.0.0",
+  "description": "NodeJS Api Mailjet",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon api server.js"
+  },
+  "keywords": [
+    "NodeJS",
+    "Express",
+    "Mailjet"
+  ],
+  "author": "Antoine Besnard",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "node-mailjet": "^5.1.1",
+    "nodemon": "^2.0.19"
+  }
+}
